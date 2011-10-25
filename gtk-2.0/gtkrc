@@ -47,8 +47,8 @@ style "murrine-default"
 
 	GtkImage            ::x-ayatana-indicator-dynamic 		= 1
 
-	GtkMenu             ::horizontal-padding			    = 0
-	GtkMenu             ::vertical-padding			        = 0
+	GtkMenu             ::horizontal-padding			    = 3
+	GtkMenu             ::vertical-padding			        = 4
 
 	GtkMenuBar          ::internal-padding			        = 0
 	GtkMenuBar          ::window-dragging			        = 1
@@ -285,10 +285,10 @@ style "murrine-menubar" { fg[NORMAL] = @fg_color GtkMenuBar :: shadow-type = GTK
 
 style "murrine-notebook" = "murrine-default"
 {
-	bg[NORMAL]				= shade (1.06, @bg_color)	# selected tab entire
+	bg[NORMAL]				= shade (1.9, @bg_color)	# selected tab entire
 	bg[ACTIVE]				= shade (0.85, @bg_color)	# unselected tab
 
-	engine "murrine" { roundness = 4 }
+	engine "murrine" { roundness = 2 }
 }
 
 style "murrine-progressbar" = "murrine-thin"

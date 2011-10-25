@@ -13,7 +13,7 @@ style "elementary-panel"
 	bg[PRELIGHT]				= shade (0.85, "#3B3B3B")
 
 	engine "murrine" {
-		roundness			= 0
+		roundness			= 3
 		highlight_shade     		= 1.0 
 		lightborder_shade   		= 0.88
 		gradient_shades     		= {0.90,1.09,1.10,1.30}
@@ -67,9 +67,9 @@ style "murrine-menu-item" = "murrine-wider-dark"
 {
 	engine "murrine"
 	{
-		roundness			= 0
-		lightborderstyle		= 1
-		contrast			= 1.5
+		roundness			= 3
+		lightborderstyle		= 5
+		contrast			= 0.5
 	}
 }
 
