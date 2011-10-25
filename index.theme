@@ -1,14 +1,14 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=elementary
-Comment=elementary desktop default theme
+Name=ecenth
+Comment=ecenth - cenzino gtk theme
 Encoding=UTF-8
 
-Name[en_US]=elementary
+Name[en_US]=ecenth
 
 [X-GNOME-Metatheme]
-GtkTheme=elementary
+GtkTheme=ecenth
 MetacityTheme=elementary
-IconTheme=elementary Dark
+IconTheme=elementary-mono-dark
 CursorTheme=DMZ-Black
-ButtonLayout=close,minimize,maximize:
+ButtonLayout=close,minimize,maximize:shade
